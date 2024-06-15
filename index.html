@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Tyagi - Resume</title>
+    <title>Shivam Tyagi - Professional Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            text-align: center;
             background-color: #f4f4f4;
         }
 
@@ -18,18 +17,84 @@
             background-color: #333;
             color: #fff;
             padding: 1em 0;
+            text-align: center;
         }
 
         .container {
             width: 80%;
             margin: auto;
             padding: 2em 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
         }
 
-        iframe {
+        .left-column {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-column {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info,
+        .skills,
+        .languages,
+        .certifications,
+        .honors,
+        .publications {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact-info li,
+        .skills li,
+        .languages li,
+        .certifications li,
+        .honors li,
+        .publications li {
+            margin-bottom: 0.5em;
+        }
+
+        .photo {
+            text-align: center;
+            margin-bottom: 2em;
             width: 100%;
-            height: 100vh;
-            border: none;
+        }
+
+        .photo img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .column {
+                width: 100%;
+            }
         }
     </style>
 </head>
@@ -37,14 +102,192 @@
 <body>
     <header>
         <h1>Shivam Tyagi</h1>
-        <p>Resume</p>
+        <p>Software Development Engineer II @ Amazon Payments</p>
     </header>
 
     <div class="container">
-        <iframe src="ST_Canva.pdf"></iframe>
+        <div class="left-column">
+            <div class="section">
+                <h2>Summary</h2>
+                <p>Every person on this planet is on their own unique "Quest of Life." Some want to earn money, some
+                    want to help others, some want to be famous, and some want to gain knowledge. My quest is to gain
+                    knowledge, be innovative, and solve problems to make this world a better, more peaceful place to
+                    live. Life or work, I am a problem solver. My ability to learn quickly and independently and deliver
+                    results is my strength.</p>
+                <p>I am a experienced Software Development professional with a strong
+                    background in leading software engineering teams and driving technical innovation. Proficient in a
+                    wide range of technologies, including FinTech, AWS, AI/ML, Telecom Systems, and Hardware
+                    Design. Proven track record of successfully re-architecting and optimizing software
+                    applications, ensuring scalability and regulatory compliance. Empowered with
+                    diverse experience, very well-equipped to drive complex projects to success
+                    delivering high-quality results.</p>
+            </div>
+
+            <div class="section">
+                <h2>Professional Experience</h2>
+                <ul>
+                    <li>
+                        <h3>Amazon</h3>
+                        <p><strong>Software Development Engineer</strong> (September 2020 - Present)</p>
+                        <p>Austin, Texas, United States</p>
+                        <p>Leading projects to automate accounting by bringing visibility into the life cycle of a
+                            charge
+                            and making the system intelligent enough to proactively prevent issues from impacting
+                            customers.
+                        <p><strong>Technologies : </strong>Java, AWS CDK, Sagemaker, REACT, SQL-No SQL, Python, Scala
+                        </p>
+                        <ul>
+                            <li>Led the team to achieve faster and smoother version migrations and data deletion by
+                                re-architecturing the data
+                                model used in ML applications.</li>
+                            <li>Facilitated GDPR compliance for ML model by helping the ML team to migrate the models to
+                                optimized data format.
+                            </li>
+                            <li>Saved manual effort of 56 SDE weeks yearly by automating different accounting flows
+                                including booking of
+                                month-end remittances and chargefail use cases.</li>
+                            <li>Mentored new SDEs and interns helping them in their ramp-up and delivery of projects on
+                                time.</li>
+                            <li>Led the team to win first prize in org level hackathon on Gen AI.</li>
+                            <li>Exceeded Bar in Amazon yearly review</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>San José State University Research Foundation</h3>
+                        <p><strong>Graduate Research Fellow</strong> (August 2019 - August 2020)</p>
+                        <p>San Jose, California</p>
+                        <p>Worked on designing a hardware accelerator for Deep Neural Networks and performed power
+                            analysis
+                            using simulation activity of ALU modules.</p>
+                    </li>
+                    <li>
+                        <h3>Intel Corporation</h3>
+                        <p><strong>Graduate Technical Intern</strong> (May 2019 - August 2019)</p>
+                        <p>Fort Collins, Colorado Area</p>
+                    </li>
+                    <li>
+                        <h3>Delhi Metro Rail Corp Ltd</h3>
+                        <p><strong>Senior System Analyst</strong> (April 2014 - August 2018)</p>
+                        <p>New Delhi, India</p>
+                        <p><strong>Technologies : </strong>PHP, My-SQL, TCP/IP, Cisco, HP, Juniper, VMWare, Linux</p>
+                        <ul>
+                            <li>Led telecoms and networking maintenance team ensuring 99.99% service uptime.</li>
+                            <li>Streamlined failure handling by designing and implementing centralized failure reporting
+                                using the LAMP stack.
+                            </li>
+                            <li>Supervised migration of physical system servers to virtual infrastructure and reduced
+                                hardware cost by 60%.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Food Corp of India</h3>
+                        <p><strong>Assistant Grade III</strong> (April 2011 - April 2013)</p>
+                        <p>New Delhi, India</p>
+                        <p><strong>Technologies : </strong>PHP, My-SQL, TCP/IP, Linux, SQL</p>
+                        <ul>
+                            <li>Achieved 60% reduction in transit losses by migrating data reporting to online portal.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>New Generation Institute</h3>
+                        <p><strong>Co-Founder</strong> (May 2013 - March 2014)</p>
+                        <p>New Delhi, India</p>
+                        <p><strong>Technologies : </strong>Microsoft Excel, Team, EdTech</p>
+                        <ul>
+                            <li>Course planning for high school and middle school students.
+                            </li>
+                            <li>
+                                Subject Matter Expert : Mathematics
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Education</h2>
+                <h3>San Jose State University</h3>
+                <p>Master's degree, Computer Software Engineering (2018 - 2020)</p>
+
+                <h3>Guru Gobind Singh Indraprastha University</h3>
+                <p>Master of Technology (M.Tech.), VLSI (2009 - 2011)</p>
+
+                <h3>Dr. Ram Manohar Lohia Avadh University</h3>
+                <p>Engineer’s Degree, Computer Science (2005 - 2009)</p>
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="photo">
+                <img src="photo.jpeg" alt="Shivam Tyagi">
+            </div>
+
+            <div class="section">
+                <h2>Contact Information</h2>
+                <ul class="contact-info">
+                    <li>Address: Austin, Texas, US</li>
+                    <li>Phone: +1-(912)-396-1767</li>
+                    <li>Email: <a href="mailto:shivamtyagi18@gmail.com">shivamtyagi18@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://www.linkedin.com/in/shivamtyagi18"
+                            target="_blank">linkedin.com/in/shivamtyagi18</a></li>
+                    <li>ResearchGate: <a href="https://www.researchgate.net/profile/Shivam_Tyagi5"
+                            target="_blank">researchgate.net/profile/Shivam_Tyagi5</a></li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Skills</h2>
+                <ul class="skills">
+                    <li>Back-End Web Development</li>
+                    <li>Cloud Computing</li>
+                    <li>Python (Programming Language)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Languages</h2>
+                <ul class="languages">
+                    <li>English (Full Professional)</li>
+                    <li>Hindi (Native or Bilingual)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Certifications</h2>
+                <ul class="certifications">
+                    <li>CDRS Call Recording System Administration Training</li>
+                    <li>VMware Administration Training</li>
+                    <li>TSYS06R81 & TSYS10R81</li>
+                    <li>Dimetra IP R8.1 Fault Management, Troubleshooting & Maintenance</li>
+                    <li>SDH System Administration Training</li>
+                    <li>Artificial Intelligence Foundations: Machine Learning</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Honors & Awards</h2>
+                <ul class="honors">
+                    <li>Graduate Aptitude Test for Engineering Scholarship</li>
+                    <li>Award for Distinguished Service</li>
+                    <li>Davidson Student Scholar</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Publications</h2>
+                <ul class="publications">
+                    <li>Extended balanced dimension ordered routing algorithm for 3D-networks</li>
+                    <li>Performance analysis of network-on-chip topologies</li>
+                    <li>Topologies and routing strategies in MPSoC</li>
+                    <li>Operational Evaluation of Network on Chip Topologies</li>
+                    <li>Review of 3-D network-on-chip topologies</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <p>© 2024 Shivam Tyagi. All rights reserved.</p>
     </footer>
 </body>
